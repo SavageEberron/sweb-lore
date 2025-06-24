@@ -43,15 +43,15 @@
         "ASSISTANT": "OWNER"
       },
       "system": "swade",
-      "banner": "modules/sweb-core-rules/assets/banner/banner_01.webp",
+      "banner": "modules/sweb-lore/assets/banner/banner_01.webp",
       "flags": {}
     }
   ],
   "media": [
     {
       "type": "setup",
-      "url": "modules/sweb-core-rules/assets/logos/banner-setup.webp",
-      "thumbnail": "modules/sweb-core-rules/assets/logos/banner-setup.webp",
+      "url": "modules/sweb-lore/assets/logos/banner-setup.webp",
+      "thumbnail": "modules/sweb-lore/assets/logos/banner-setup.webp",
       "loop": false,
       "flags": {}
   }

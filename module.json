@@ -1,49 +1,47 @@
 {
   "id": "sweb-lore",
   "title": "Savage Eberron: Eberron Lore",
-  "description": "",
-  "version": "#{VERSION}#",
-  "library": "false",
-  "compatibility": {
-    "minimum": "12",
-    "verified": "12"
-  },
-  "authors": [
-    {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
-    }
-  ],
-  "relationships": {
-    "systems": [],
-    "requires": []
-  },
-  "esmodules": [
-    "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
+  "description": "Module for lore about the Eberron World.",
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
   "license": "LICENSE",
   "readme": "README.md",
-  "media": [
+  "version": "#{VERSION}#",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "swade",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
     {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+      "name": "Dm Freewolf",
+      "email": "phillip@everafter.games",
+      "url": "https://www.savagetalesofeberron.com",
+      "discord": "freewolf98",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "sweb-lore",
+      "label": "Eberron Lore",
+      "path": "packs/sweb-lore",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
     }
   ]
 }

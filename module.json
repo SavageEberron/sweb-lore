@@ -1,13 +1,15 @@
 {
   "id": "sweb-lore",
   "title": "Savage Eberron: Eberron Lore",
-  "description": "Module for lore about the Eberron World.",
+  "description": "Module for lore about the Eberron World. This is proprietary information and should not be sold at all.",
+  "version": "#{VERSION}#",
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
+  "changelog": "https://github.com/SavageEberron/sweb-lore/blob/master/CHANGELOG.md",
+  "readme": "https://github.com/SavageEberron/sweb-lore/blob/master/README.md",
+  "bugs": "https://github.com/SavageEberron/sweb-lore/issues",
   "license": "LICENSE",
-  "readme": "README.md",
-  "version": "#{VERSION}#",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -41,7 +43,17 @@
         "ASSISTANT": "OWNER"
       },
       "system": "swade",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_01.webp",
       "flags": {}
     }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/sweb-core-rules/assets/logos/banner-setup.webp",
+      "thumbnail": "modules/sweb-core-rules/assets/logos/banner-setup.webp",
+      "loop": false,
+      "flags": {}
+  }
   ]
 }

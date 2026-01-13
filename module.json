@@ -45,6 +45,39 @@
       "system": "swade",
       "banner": "modules/sweb-lore/assets/banner/banner_01.webp",
       "flags": {}
+    },
+    {
+      "name": "sweb-actors",
+      "label": "Eberron Actors",
+      "path": "packs/sweb-actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade"
+    },
+    {
+      "name": "sweb-scenes",
+      "label": "Eberron Scenes",
+      "path": "packs/sweb-scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade"
+    },
+    {
+      "name": "sweb-items",
+      "label": "Eberron Items",
+      "path": "packs/sweb-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade"
     }
   ],
   "media": [

@@ -1,0 +1,60 @@
+.sweb-core a {
+    color: var(--cc-accent);
+    font-style: italic;
+    background: none;
+    border: none;
+}
+.sweb-core a:hover {
+    border-bottom: 1px solid var(--cc-sidebar-bg)
+}
+.sweb-core .overview p.description {
+    font-style:italic;
+    font-size: 1.1rem;
+}
+.sweb-core .overview h1 {
+    font-size: 1.5em; 
+    display: block; 
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.sweb-core .overview hr {
+    border-color: var(--cc-accent);
+    width: 60%;
+    clear:none;
+}
+.sweb-core .overview .info-box {
+    color: var(--cc-sidebar-text); 
+    background: var(--cc-sidebar-bg); 
+    padding: 1rem; 
+    border-radius: 5px; 
+    border: 1px solid var(--cc-accent);
+    width: 35%;
+    float:right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.sweb-core .overview .info-box i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: var(--cc-accent);
+}
+.sweb-core .overview .info-box h3 {
+    color: var(--cc-accent); 
+    margin-top: 0; 
+    border-bottom: 1px solid var(--cc-accent); 
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.sweb-core .overview .info-box .info-box-item {
+    clear: both;
+}
+
+.sweb-core .overview .info-box strong {
+    color: var(--cc-accent); 
+}
+
+.sweb-core .overview .info-box span {
+    float:right;
+    text-transform: capitalize;
+}

@@ -1,9 +1,11 @@
+/* update the style of the link to make it nicer */
 .sweb-core a {
     color: var(--cc-accent);
     font-style: italic;
     background: none;
     border: none;
 }
+/* underline the link on hover over */
 .sweb-core a:hover {
     border-bottom: 1px solid var(--cc-sidebar-bg)
 }

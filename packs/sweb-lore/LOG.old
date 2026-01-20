@@ -1,8 +1,11 @@
-2026/01/19-13:44:04.259 da4 Recovering log #164
-2026/01/19-13:44:04.260 da4 Level-0 table #167: started
-2026/01/19-13:44:04.263 da4 Level-0 table #167: 7351 bytes OK
-2026/01/19-13:44:04.267 da4 Delete type=2 #150
-2026/01/19-13:44:04.267 da4 Delete type=2 #158
-2026/01/19-13:44:04.267 da4 Delete type=2 #163
-2026/01/19-13:44:04.267 da4 Delete type=0 #164
-2026/01/19-13:44:04.267 da4 Delete type=3 #162
+2026/01/20-10:15:36.054 dc4 Recovering log #185
+2026/01/20-10:15:36.054 dc4 Level-0 table #188: started
+2026/01/20-10:15:36.062 dc4 Level-0 table #188: 328 bytes OK
+2026/01/20-10:15:36.066 dc4 Delete type=0 #185
+2026/01/20-10:15:36.066 dc4 Delete type=3 #183
+2026/01/20-10:15:58.063 8b40 Compacting 1@0 + 1@1 files
+2026/01/20-10:15:58.074 8b40 Generated table #190@0: 597 keys, 283662 bytes
+2026/01/20-10:15:58.074 8b40 Compacted 1@0 + 1@1 files => 283662 bytes
+2026/01/20-10:15:58.077 8b40 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/20-10:15:58.077 8b40 Delete type=2 #186
+2026/01/20-10:15:58.077 8b40 Delete type=2 #188
